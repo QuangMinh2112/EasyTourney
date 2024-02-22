@@ -1,0 +1,14 @@
+.alert-message {
+  font-weight: 700 !important;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.required-marked {
+  color: red;
+}
+.group-btn {
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  padding: 8px 0 !important;
+}

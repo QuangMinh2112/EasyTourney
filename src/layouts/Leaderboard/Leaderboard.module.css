@@ -1,0 +1,12 @@
+.page-wrapper {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+.page-title {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}

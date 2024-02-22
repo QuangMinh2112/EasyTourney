@@ -1,0 +1,27 @@
+.dialog-title {
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    text-align: center;
+}
+
+.group-btn {
+    width: 100%;
+    justify-content: flex-end;
+    padding: 8px 0 !important;
+}
+
+
+.require{
+    color:red
+}
+
+.category-error{
+    font-size: 0.75rem; 
+    color: #d32f2f; 
+    font-weight: 400; 
+    margin: 3px 0;
+}
+
+.required-marked{
+    color: red;
+}

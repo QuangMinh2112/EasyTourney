@@ -1,0 +1,10 @@
+.tournament-container{
+    margin-top: 1rem;
+}
+.tournament-button{
+    background-color: #24292e;
+    color:#fff;
+}
+.tournament-button:hover{
+    background-color: #3e4143;
+}

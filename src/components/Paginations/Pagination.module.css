@@ -1,0 +1,14 @@
+.cursorPointer {
+  cursor: pointer;
+}
+
+.disabledContent {
+  cursor: not-allowed;
+  opacity: 0.38;
+  pointer-events: none;
+}
+.activePagination {
+  color: #fff;
+  background-color: #0070c1;
+  transition: all ease-in-out 0.5s;
+}

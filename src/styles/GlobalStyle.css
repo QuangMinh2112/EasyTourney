@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600;1,800&family=Space+Grotesk:wght@700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 300;
+    font-family: 'Source Sans Pro';
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+

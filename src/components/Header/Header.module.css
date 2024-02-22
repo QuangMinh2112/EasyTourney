@@ -1,0 +1,101 @@
+.main-app-header {
+  border-radius: 10px !important;
+  background-color: #f0f2f5ad !important;
+  backdrop-filter: saturate(200%) blur(1rem);
+  padding: 0 !important;
+}
+
+.menu-title {
+  flex-grow: 1;
+}
+
+.menu-list-item {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 0.8rem 1rem 0.8rem 1.5rem !important;
+  transition: all 0.1s ease-in-out;
+}
+.menu-list-item:hover > li:nth-last-of-type(1),
+:nth-last-type(2) {
+  padding: 0.8rem 0.5rem 0.8rem 1.5rem;
+}
+.menu-list-text {
+  font-size: 0.9rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px;
+  font-weight: 500 !important;
+}
+.menu-list-icon-password {
+  font-size: 1.2rem !important;
+  color: #176b87;
+}
+.menu-list-icon-logout {
+  font-size: 1.2rem !important;
+  color: #ff9b50;
+}
+.menu-info-item {
+  width: 250px;
+  opacity: 1 !important;
+}
+
+.menu-divider {
+  margin: 0 !important;
+}
+
+.toolbar {
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  color: rgb(52, 71, 103);
+  padding: 0.5rem 1rem !important;
+}
+.toolbar-tournament {
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  color: rgb(52, 71, 103);
+  padding: 0.2rem 1rem !important;
+}
+
+.title {
+  display: flex;
+}
+
+.typography-header {
+  margin-bottom: 0 !important;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: 'Poppins', sans-serif !important;
+  text-align: start;
+}
+.profile-pictures-wrapper {
+  position: relative !important;
+}
+.profile-background {
+  width: 100% !important;
+  height: 100px !important;
+  border-radius: 0 !important;
+}
+.profile-avatar {
+  width: 64px !important;
+  height: 64px !important;
+  position: absolute !important;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 3px solid #fff !important;
+}
+.username {
+  margin: 2rem 0 1rem !important;
+  width: 100%;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  text-align: center;
+  padding: 0 2rem !important;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}

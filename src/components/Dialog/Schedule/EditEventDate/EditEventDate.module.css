@@ -1,0 +1,15 @@
+.edit-time-event-form{
+    display:flex;
+    flex-direction: column;
+    gap:1rem
+}
+.dialog-content-wrapper{
+    margin-top: 1rem;
+}
+.edit-time-event-title {
+    font-weight: 500 !important;
+}
+.alert-message {
+    font-weight: 700 !important;
+    width: 100%;
+}

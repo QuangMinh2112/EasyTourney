@@ -1,0 +1,28 @@
+.organizer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0 0 0;
+}
+.dialog-title {
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  text-align: center;
+}
+.group-btn {
+  width: 100%;
+  justify-content: flex-end;
+  padding: 8px 0 !important;
+}
+.add-organizer-btn,
+.add-organizer-btn:hover {
+  background-color: rgb(36, 41, 46);
+}
+.alert-message {
+  font-weight: 700 !important;
+  width: 100%;
+}
+.required-marked {
+  color: red;
+}

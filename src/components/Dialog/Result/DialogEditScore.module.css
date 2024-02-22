@@ -1,0 +1,6 @@
+.group-btn {
+    width: 100%;
+    justify-content: flex-end;
+    padding: 8px 0 !important;
+    margin-top: 10px !important;
+  }

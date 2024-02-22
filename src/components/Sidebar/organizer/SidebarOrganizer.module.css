@@ -1,0 +1,57 @@
+.sidebar {
+  position: fixed;
+  width: 250px;
+  transition: all 0.5s ease;
+  height: calc(100vh - 2rem);
+  background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+  overflow: hidden;
+  border-radius: 10px;
+  z-index: 1000;
+  margin: 1rem;
+}
+
+.sidebar-collapsed {
+  width: 88px;
+}
+
+.sidebar-header {
+  padding-top: 24px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 10px;
+  text-align: center;
+  opacity: 1;
+}
+
+.sidebar-header-collapsed {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.hr-line {
+  opacity: 0.8;
+  color: white;
+}
+
+.custom-typography {
+  font-size: 1.5rem !important;
+  color: white;
+  font-family: 'Varela Round', sans-serif !important;
+}
+
+.list-item {
+  margin: 0.25rem 1rem !important;
+  padding: 0.75rem 1rem !important;
+  width: auto !important;
+}
+
+.text-menu {
+  color: white;
+  margin: 0 !important;
+}

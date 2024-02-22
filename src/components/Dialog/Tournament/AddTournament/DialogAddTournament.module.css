@@ -1,0 +1,58 @@
+.tournament-title {
+  text-align: center;
+}
+
+.tournament-common-title {
+  font-weight: 500;
+}
+
+.tournament-content {
+  padding-top: 1rem !important;
+  width: 100%;
+  transition: height 0.3s ease-in-out;
+  height: auto;
+}
+.require {
+  color: red;
+}
+.tournament-event-dates {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tournament-action {
+  margin-top: 1rem;
+  padding: 8px 0 !important;
+}
+.tournament-event-dates-warning {
+  font-size: 0.75rem;
+  color: red;
+  font-weight: 400;
+}
+.tournament-event-dates-title {
+  font-weight: bold;
+}
+.tournament-form-container {
+  margin-bottom: 1rem;
+}
+.tournament-form-container .MuiFormHelperText-root {
+  margin-left: 2px;
+}
+.tournament-form-category {
+  margin-bottom: 2rem;
+}
+.tournament-error {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 0.75rem;
+  color: #d32f2f;
+  font-weight: 400;
+  margin: 3px 14px;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+.add-tournament-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

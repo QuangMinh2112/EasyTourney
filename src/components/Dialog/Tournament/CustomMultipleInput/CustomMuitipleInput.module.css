@@ -1,0 +1,23 @@
+.list-dates {
+  width: 100%;
+  height: 120px;
+  resize: none;
+  border: 1px solid #dacece;
+  border-radius: 5px;
+  padding: 0.8rem 1rem;
+}
+.list-dates:focus {
+  outline: none;
+  border: 2px solid rgb(16, 133, 217);
+}
+.border-error-textarea {
+  width: 100%;
+  height: 120px;
+  resize: none;
+  border: 1px solid #d32f2f;
+  border-radius: 5px;
+}
+.border-error-textarea:focus {
+  outline: none;
+  border: 2px solid #d32f2f;
+}

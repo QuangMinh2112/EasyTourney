@@ -1,0 +1,36 @@
+.plan-container {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.plan-title {
+  padding: 1rem !important;
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+.plan-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.plan-sub-title {
+  font-weight: 500;
+  font-size: 0.9rem !important;
+}
+
+.group-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.generate-btn {
+  width: 100%;
+}
+
+.warning-message {
+  font-size: 0.8rem;
+  align-items: center;
+}

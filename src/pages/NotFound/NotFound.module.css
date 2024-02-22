@@ -1,0 +1,35 @@
+.container {
+    align-items: center;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img404 {
+    max-width: 481px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 145px 0 130px;
+    text-align: center;
+}
+
+.contet {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 15px 0 0 -40px;
+}
+
+.text {
+    color: #30425B;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 57px;
+    max-width: 460px;
+}
+

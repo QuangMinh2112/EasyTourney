@@ -1,0 +1,25 @@
+.dialog-title {
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+.eventdate-error {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 0.75rem;
+  color: #d32f2f;
+  font-weight: 400;
+  margin: 3px 14px;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+.group-btn {
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.alert-message {
+  font-weight: 700 !important;
+  width: 100%;
+  margin: 10px 0 !important;
+}

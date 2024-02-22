@@ -1,0 +1,21 @@
+.swal2-container {
+  z-index: 5000 !important;
+}
+
+.dialog-title {
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+.group-btn {
+  width: 100%;
+  justify-content: flex-end;
+  padding: 1.5rem !important;
+}
+
+.dialog-container {
+  max-height: 60vh;
+  overflow: auto;
+  padding-top: 1rem;
+}

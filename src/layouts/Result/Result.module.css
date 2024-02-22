@@ -1,0 +1,182 @@
+.result-container {
+  margin-top: 2rem;
+}
+
+.result-wrapper {
+  padding: 1rem 3rem;
+  max-width: 90%;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.result-info {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  flex: 2.2;
+}
+
+.result-container {
+  width: 100%;
+}
+
+.result-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 16px;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.result-item {
+  border-radius: 8px;
+  background-color: #f1f3fb;
+  overflow: hidden;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(0, 35, 82, 1) 0%, rgba(0, 83, 181, 1) 100%);
+}
+
+.result-date {
+  font-size: 32px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 1.3rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.result-match {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.match {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  line-height: 16px;
+  gap: 40px;
+  color: #000;
+  flex: 2;
+  margin-right: 60px;
+}
+
+.team-left {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+  flex: 1;
+  font-size: 18px;
+}
+
+.team-right {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  flex: 1;
+  font-size: 18px;
+}
+
+.goals {
+  min-width: 40px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.result-time {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  flex: 0.15;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  align-items: center;
+}
+
+.score {
+  background-color: #14539a;
+  font-size: 1rem;
+  line-height: 2.4rem;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+  width: 5rem;
+  height: 2.3rem;
+  margin: 0 20px;
+  cursor: pointer;
+  min-width: 3.8rem;
+}
+
+.scoreA {
+  margin-right: 5px;
+  display: inline-block;
+  width: 25px;
+  text-align: center;
+}
+
+.scoreB {
+  margin-left: 5px;
+  display: inline-block;
+  width: 25px;
+  text-align: center;
+}
+
+time {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.result-match:nth-child(odd) {
+  background-color: #f9fafd;
+}
+
+.no-match-message {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.not-played {
+  background-color: gray;
+  cursor: default;
+}
+
+.result-icon a {
+  text-align: center;
+  margin-right: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.result-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
